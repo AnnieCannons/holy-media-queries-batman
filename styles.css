@@ -169,3 +169,16 @@ footer a:hover {
 }
 
 /* MEDIA QUERIES GO BELOW! */
+@media (1279px >= width >= 768px) {
+  .splash {
+    display: none;
+  }
+  main {
+    width: 90%;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    gap: 200px;
+  }
+}

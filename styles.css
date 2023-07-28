@@ -169,3 +169,18 @@ footer a:hover {
 }
 
 /* MEDIA QUERIES GO BELOW! */
+@media (max-width:1276px)
+   {
+  .splash{
+    display: none ;
+  }
+  main{
+    width: 90%;
+  }
+  footer{
+    grid-template-columns:repeat(2,1fr) ;
+  }
+}
+ 
+  
+  
